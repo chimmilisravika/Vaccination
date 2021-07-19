@@ -1,0 +1,17 @@
+D:\Atmecs\Vaccination\Vaccination\bin\Debug\netcoreapp3.1\Vaccination.exe
+D:\Atmecs\Vaccination\Vaccination\bin\Debug\netcoreapp3.1\Vaccination.deps.json
+D:\Atmecs\Vaccination\Vaccination\bin\Debug\netcoreapp3.1\Vaccination.runtimeconfig.json
+D:\Atmecs\Vaccination\Vaccination\bin\Debug\netcoreapp3.1\Vaccination.runtimeconfig.dev.json
+D:\Atmecs\Vaccination\Vaccination\bin\Debug\netcoreapp3.1\Vaccination.dll
+D:\Atmecs\Vaccination\Vaccination\bin\Debug\netcoreapp3.1\Vaccination.pdb
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.csproj.AssemblyReference.cache
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.reg_form.resources
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.csproj.GenerateResource.cache
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.AssemblyInfoInputs.cache
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.AssemblyInfo.cs
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.csproj.CoreCompileInputs.cache
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.dll
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.pdb
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.genruntimeconfig.cache
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.Confirm_registration.resources
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.Success_reg.resources
