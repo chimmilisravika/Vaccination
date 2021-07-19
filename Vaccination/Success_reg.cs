@@ -29,5 +29,10 @@ namespace Vaccination
         {
 
         }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            reg_form regfrm = new reg_form();
+            regfrm.Show();
+        }
     }
 }

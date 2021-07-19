@@ -298,7 +298,6 @@ namespace Vaccination
             this.Controls.Add(this.Username_txt);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "reg_form";
-            this.Text = "]=";
             this.Load += new System.EventHandler(this.reg_form_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
