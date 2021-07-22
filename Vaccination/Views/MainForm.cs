@@ -35,6 +35,7 @@ namespace Vaccination
             txtAddressProof.Items.Add("Voter Id");
             txtAddressProof.Items.Add("PAN Card");
             txtAddress.MaxLength = 300;
+            txtContactNumber.MaxLength = 10;
         }
         //Making Submit button enable
         private void Username_txt_TextChanged(object sender, EventArgs e)
