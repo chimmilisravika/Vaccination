@@ -1,7 +1,7 @@
 ﻿
 namespace Vaccination
 {
-    partial class Success_reg
+    partial class successfulRegistration
     {
         /// <summary>
         /// Required designer variable.
@@ -29,14 +29,14 @@ namespace Vaccination
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Success_reg));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(successfulRegistration));
             this.label1 = new System.Windows.Forms.Label();
-            this.label_Name = new System.Windows.Forms.Label();
+            this.lblUserName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.Contact_Label = new System.Windows.Forms.Label();
+            this.lblContactNum = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.Vac_Name = new System.Windows.Forms.Label();
+            this.lblContactNumber = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -49,15 +49,15 @@ namespace Vaccination
             this.label1.TabIndex = 0;
             this.label1.Text = "Thanks for Registration,";
             // 
-            // label_Name
+            // lblUserName
             // 
-            this.label_Name.AutoSize = true;
-            this.label_Name.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label_Name.Location = new System.Drawing.Point(252, 54);
-            this.label_Name.Name = "label_Name";
-            this.label_Name.Size = new System.Drawing.Size(27, 25);
-            this.label_Name.TabIndex = 1;
-            this.label_Name.Text = "...";
+            this.lblUserName.AutoSize = true;
+            this.lblUserName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblUserName.Location = new System.Drawing.Point(252, 54);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(27, 25);
+            this.lblUserName.TabIndex = 1;
+            this.lblUserName.Text = "...";
             // 
             // label2
             // 
@@ -69,16 +69,15 @@ namespace Vaccination
             this.label2.TabIndex = 2;
             this.label2.Text = "Please wait for SMS on contact";
             // 
-            // Contact_Label
+            // lblContactNum
             // 
-            this.Contact_Label.AutoSize = true;
-            this.Contact_Label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Contact_Label.Location = new System.Drawing.Point(321, 107);
-            this.Contact_Label.Name = "Contact_Label";
-            this.Contact_Label.Size = new System.Drawing.Size(27, 25);
-            this.Contact_Label.TabIndex = 3;
-            this.Contact_Label.Text = "...";
-            this.Contact_Label.Click += new System.EventHandler(this.Contact_Label_Click);
+            this.lblContactNum.AutoSize = true;
+            this.lblContactNum.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblContactNum.Location = new System.Drawing.Point(321, 107);
+            this.lblContactNum.Name = "lblContactNum";
+            this.lblContactNum.Size = new System.Drawing.Size(27, 25);
+            this.lblContactNum.TabIndex = 3;
+            this.lblContactNum.Text = "...";
             // 
             // label4
             // 
@@ -100,33 +99,33 @@ namespace Vaccination
             this.label5.TabIndex = 5;
             this.label5.Text = "You have opted for";
             // 
-            // Vac_Name
+            // lblContactNumber
             // 
-            this.Vac_Name.AutoSize = true;
-            this.Vac_Name.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Vac_Name.Location = new System.Drawing.Point(222, 164);
-            this.Vac_Name.Name = "Vac_Name";
-            this.Vac_Name.Size = new System.Drawing.Size(27, 25);
-            this.Vac_Name.TabIndex = 6;
-            this.Vac_Name.Text = "...";
+            this.lblContactNumber.AutoSize = true;
+            this.lblContactNumber.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblContactNumber.Location = new System.Drawing.Point(222, 164);
+            this.lblContactNumber.Name = "lblContactNumber";
+            this.lblContactNumber.Size = new System.Drawing.Size(27, 25);
+            this.lblContactNumber.TabIndex = 6;
+            this.lblContactNumber.Text = "...";
             // 
-            // Success_reg
+            // successfulRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(678, 250);
-            this.Controls.Add(this.Vac_Name);
+            this.Controls.Add(this.lblContactNumber);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.Contact_Label);
+            this.Controls.Add(this.lblContactNum);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label_Name);
+            this.Controls.Add(this.lblUserName);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Success_reg";
+            this.Name = "successfulRegistration";
             this.Text = "Sueccessfully Registered";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            this.Load += new System.EventHandler(this.Success_reg_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.successfulRegistration_FormClosing);
+            this.Load += new System.EventHandler(this.successfulRegistration_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,11 +134,11 @@ namespace Vaccination
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label_Name;
+        private System.Windows.Forms.Label lblUserName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label Contact_Label;
+        private System.Windows.Forms.Label lblContactNum;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label Vac_Name;
+        private System.Windows.Forms.Label lblContactNumber;
     }
 }

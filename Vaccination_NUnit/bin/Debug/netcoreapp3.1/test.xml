@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVaccination_Details xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vaccination_Details>
+    <userName>Chimmili Sravika</userName>
+    <Gender>Female</Gender>
+    <contactNumber>9344460245</contactNumber>
+    <Age>27</Age>
+    <vaccineName>Covishield</vaccineName>
+    <Address>AP</Address>
+    <addressProof>Pan Card</addressProof>
+  </Vaccination_Details>
+</ArrayOfVaccination_Details>

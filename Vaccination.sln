@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31507.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vaccination", "Vaccination\Vaccination.csproj", "{CCFF7BBC-96F9-4D57-AD3F-199179E93C01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaccination_NUnit", "Vaccination_NUnit\Vaccination_NUnit.csproj", "{AACFE4C4-CAB0-4D4D-9C4C-29EAD8811FEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CCFF7BBC-96F9-4D57-AD3F-199179E93C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCFF7BBC-96F9-4D57-AD3F-199179E93C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCFF7BBC-96F9-4D57-AD3F-199179E93C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACFE4C4-CAB0-4D4D-9C4C-29EAD8811FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACFE4C4-CAB0-4D4D-9C4C-29EAD8811FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACFE4C4-CAB0-4D4D-9C4C-29EAD8811FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACFE4C4-CAB0-4D4D-9C4C-29EAD8811FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

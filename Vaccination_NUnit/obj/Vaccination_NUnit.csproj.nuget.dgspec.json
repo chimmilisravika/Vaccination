@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Atmecs\\Vaccination\\Vaccination_NUnit\\Vaccination_NUnit.csproj": {}
+  },
+  "projects": {
+    "D:\\Atmecs\\Vaccination\\Vaccination\\Vaccination.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Atmecs\\Vaccination\\Vaccination\\Vaccination.csproj",
+        "projectName": "Vaccination",
+        "projectPath": "D:\\Atmecs\\Vaccination\\Vaccination\\Vaccination.csproj",
+        "packagesPath": "C:\\Users\\pvpin\\.nuget\\packages\\",
+        "outputPath": "D:\\Atmecs\\Vaccination\\Vaccination\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pvpin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400-preview.21328.4\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Atmecs\\Vaccination\\Vaccination_NUnit\\Vaccination_NUnit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Atmecs\\Vaccination\\Vaccination_NUnit\\Vaccination_NUnit.csproj",
+        "projectName": "Vaccination_NUnit",
+        "projectPath": "D:\\Atmecs\\Vaccination\\Vaccination_NUnit\\Vaccination_NUnit.csproj",
+        "packagesPath": "C:\\Users\\pvpin\\.nuget\\packages\\",
+        "outputPath": "D:\\Atmecs\\Vaccination\\Vaccination_NUnit\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pvpin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Atmecs\\Vaccination\\Vaccination\\Vaccination.csproj": {
+                "projectPath": "D:\\Atmecs\\Vaccination\\Vaccination\\Vaccination.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400-preview.21328.4\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
