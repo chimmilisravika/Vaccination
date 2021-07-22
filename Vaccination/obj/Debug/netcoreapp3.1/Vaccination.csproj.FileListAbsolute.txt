@@ -15,3 +15,4 @@ D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.genruntime
 D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.confirmRegistration.resources
 D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.formRegistration.resources
 D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.successfulRegistration.resources
+D:\Atmecs\Vaccination\Vaccination\obj\Debug\netcoreapp3.1\Vaccination.DisplayAllUsers.resources

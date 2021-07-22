@@ -51,6 +51,7 @@ namespace Vaccination
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnDisplayUsers = new System.Windows.Forms.Button();
             this.grpBoxGender.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -261,11 +262,24 @@ namespace Vaccination
             this.label5.TabIndex = 16;
             this.label5.Text = "*";
             // 
+            // btnDisplayUsers
+            // 
+            this.btnDisplayUsers.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnDisplayUsers.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnDisplayUsers.Location = new System.Drawing.Point(215, 499);
+            this.btnDisplayUsers.Name = "btnDisplayUsers";
+            this.btnDisplayUsers.Size = new System.Drawing.Size(194, 46);
+            this.btnDisplayUsers.TabIndex = 17;
+            this.btnDisplayUsers.Text = "&Display All Users";
+            this.btnDisplayUsers.UseVisualStyleBackColor = false;
+            this.btnDisplayUsers.Click += new System.EventHandler(this.btnDisplayUsers_Click);
+            // 
             // formRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 559);
+            this.Controls.Add(this.btnDisplayUsers);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -284,6 +298,7 @@ namespace Vaccination
             this.Controls.Add(this.txtUserName);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formRegistration";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.reg_form_Load);
             this.grpBoxGender.ResumeLayout(false);
             this.grpBoxGender.PerformLayout();
@@ -317,6 +332,7 @@ namespace Vaccination
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnDisplayUsers;
     }
 }
 

@@ -220,6 +220,7 @@ namespace Vaccination
             this.Controls.Add(this.lblUserName);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "confirmRegistration";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Confirm Registration";
             this.Load += new System.EventHandler(this.Confirm_registration_Load);
             this.ResumeLayout(false);

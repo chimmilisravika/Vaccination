@@ -12,6 +12,7 @@ namespace Vaccination
 {    
     public partial class formRegistration : Form
     {
+        public static List<Vaccination_Details> display_Users = new List<Vaccination_Details>();
         //Variable declaration
         public static string userName = string.Empty;
         public static string Gender = string.Empty;
@@ -62,43 +63,46 @@ namespace Vaccination
         //Call the Confirm registration
         private void btn_submit_Click(object sender, EventArgs e)
         {
-            userName = txtUserName.Text;
+            Vaccination_Details vacDetails = new Vaccination_Details();
+
+            vacDetails.userName = txtUserName.Text;
             if (rbFemale.Checked == true)
             {
-                Gender = "Female";
+                vacDetails.Gender = "Female";
             }
             else if (rbMale.Checked == true)
             {
-                Gender = "Male";
+                vacDetails.Gender = "Male";
             }
             else
             {
-                Gender = "NA";
+                vacDetails.Gender = "NA";
             }
 
-            contactNumber = txtContactNumber.Text;
-            Age = txtAge.Text;
+            vacDetails.contactNumber = txtContactNumber.Text;
+            vacDetails.Age = txtAge.Text;
             if (rbCovishield.Checked == true)
             {
-                vaccineName = "Covishield";
+                vacDetails.vaccineName = "Covishield";
             }
             else if (rbCovaxin.Checked == true)
             {
-                vaccineName = "Covaxin";
+                vacDetails.vaccineName = "Covaxin";
             }
             else if (rbSpuntnik.Checked == true)
             {
-                vaccineName = "Spuntnik";
+                vacDetails.vaccineName = "Spuntnik";
             }
             else
             {
-                vaccineName = "Available Vaccine";
+                vacDetails.vaccineName = "Available Vaccine";
             }
-            Address = txtAddress.Text;
-            addressProof = txtAddressProof.Text;
+            vacDetails.Address = txtAddress.Text;
+            vacDetails.addressProof = txtAddressProof.Text;
+
 
             this.Hide();
-            confirmRegistration reg_confirm = new confirmRegistration();
+            confirmRegistration reg_confirm = new confirmRegistration(vacDetails);
             reg_confirm.Show();
         }
         //Contact number key press events
@@ -118,6 +122,12 @@ namespace Vaccination
             {
                 MessageBox.Show("Please enter only numeric characters", "Age");
             }
+        }
+
+        private void btnDisplayUsers_Click(object sender, EventArgs e)
+        {
+            DisplayAllUsers displayUsers = new DisplayAllUsers();
+            displayUsers.Show();
         }
     }
 }

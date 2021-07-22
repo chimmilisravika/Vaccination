@@ -10,17 +10,18 @@ namespace Vaccination
 {
     public partial class successfulRegistration : Form
     {
-        public successfulRegistration()
+        public successfulRegistration(Vaccination_Details UserDetails)
         {
             InitializeComponent();
+            lblUserName.Text = UserDetails.userName;
+            lblContactNum.Text = UserDetails.contactNumber;
+            lblContactNumber.Text = UserDetails.vaccineName;
         }
         //Load all the details from fromRegistration
         private void successfulRegistration_Load(object sender, EventArgs e)
         {
             
-            lblUserName.Text = formRegistration.userName;
-            lblContactNum.Text = formRegistration.contactNumber;
-            lblContactNumber.Text = formRegistration.vaccineName;
+           
 
         }
         //While closing Successful Registration form call MainForm
